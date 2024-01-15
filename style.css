@@ -97,11 +97,11 @@ nav ul{
 nav li:hover{
     cursor: pointer;
 }
-.desti,.us{
+.desti,.us,.deals,.btn-1{
     align-items: center;
     text-align: center;
 }
-.destination ,.choose{
+.destination ,.choose,.contain{
     padding: 10px 200px;
     align-items: center;
     
@@ -146,4 +146,104 @@ nav li:hover{
    margin:20px 200px;
     background-color: beige;
     padding: 20px 20px;
+}
+.chata{
+    background-image: url(./Images/Group\ 39.png);
+    align-items: center;
+    text-align: center;
+    height: 450px;
+    justify-content: right;
+    margin: 10px 40px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.satorini{
+    justify-content:center;
+    position: relative;
+     top: 45px;
+     
+    align-items: flex-end;
+    text-align: left;
+     padding: 5px 25px;
+    float: right;
+    background-color: rgba(255, 252, 247, 0.835);
+    width: 350px;
+    height: 300px;
+
+
+}
+.satorini ul{
+    display: flex;
+    list-style: none;
+   align-items: center;
+   justify-content: space-between;
+}
+.satorini ul li{
+    padding-left: -20px;
+    gap: 5px;
+   
+}
+.satorini ul li img{
+    height: 18px;
+}
+.chata-1{
+    background-image: url(./Images/Group\ 40.png);
+    align-items: center;
+    text-align: center;
+    height: 450px;
+    justify-content: right;
+    margin: 0px 40px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    height: 350px;
+    width: 450px;
+    /* display:grid ; */
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 20px 20px;
+    border: 1px solid red;
+  
+   
+}
+.box input{ margin: 10px;
+padding: 10px 18px;
+outline: none;
+border: none;
+width: 90%;
+}
+.btn3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    background-color: orangered;
+    color: white;
+    font-weight: 900;
+}
+#side{
+     justify-content: space-between;
+}
+
+.centi{
+    background-color: orangered;
+    padding: 5px 15px;
+    border-radius: 17px;
+    line-height: 1px;
+    position: absolute;
+    font-size: 15px;
+    width: 250px;
+    left: 360px;
+    bottom: 20px;
+    height: 80px;
+    transform: translate(-50%, -50%) rotate(-26deg);
 }
