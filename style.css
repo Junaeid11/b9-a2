@@ -72,3 +72,57 @@ nav ul{
     color: white;
     background-color: orangered;
 }
+.popular{
+    display: flex;
+    padding: 20px 200px;
+}
+.popular img{
+    height: 500px;
+    width: 500px;
+    
+}
+.popular .tour-1{
+    padding: 0 auto;
+    margin: 0 10px;
+    text-align: left;
+    ;
+}
+.tour-1 h1{
+    font-size: 40px;
+    padding: 0 auto;
+}
+.btn:hover{
+    cursor:pointer;
+}
+nav li:hover{
+    cursor: pointer;
+}
+.desti{
+    align-items: center;
+    text-align: center;
+}
+.destination{
+    padding: 10px 200px;
+    align-items: center;
+    
+}
+.frow,.srow,.trow{
+    padding: 10px 200px;
+    gap: 25px;
+     display: flex;
+      justify-content: space-evenly;
+    }
+
+.cent{
+        position: absolute;
+        font-size: 25px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+.fas{
+        position: relative;
+        text-align: center;
+        color: white;
+      }
