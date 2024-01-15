@@ -28,8 +28,8 @@ nav ul{
      }
  form{
     border-radius: 12px;
-    padding: 15px 5px;
-    margin: 10px 40px;
+    padding: 15px 15px;
+    margin: 10px 30px;
     background: rgba(206, 194, 194, 0.346);
     
  }
@@ -97,11 +97,11 @@ nav ul{
 nav li:hover{
     cursor: pointer;
 }
-.desti{
+.desti,.us{
     align-items: center;
     text-align: center;
 }
-.destination{
+.destination ,.choose{
     padding: 10px 200px;
     align-items: center;
     
@@ -125,4 +125,25 @@ nav li:hover{
         position: relative;
         text-align: center;
         color: white;
-      }
+}
+.service{
+    display: flex;
+    align-items: center;
+   
+    gap: 25px;
+}
+.hotel{
+    background-color: aliceblue;  
+    padding: 5px 20px;
+}
+.hotel-2{
+    background-color: antiquewhite;
+     padding: 5px 20px;
+}
+.hotel-3{
+    align-items: center;
+    justify-content: center;
+   margin:20px 200px;
+    background-color: beige;
+    padding: 20px 20px;
+}
