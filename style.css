@@ -276,3 +276,168 @@ footer{
     justify-content: space-between;
     gap: 45px;
 }
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+#check{
+    
+    position: relative;
+   right: -20px;
+   bottom: -25px;
+    display: none;
+}
+@media screen and (max-width:600px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+
+    }
+    nav ul li{
+       font-size: 16px;
+    }
+    .checkbtn{
+        display: block;
+    }
+ 
+   nav ul{
+    display: none;
+    
+    margin: 50px 0;
+    line-height: 30px;
+   }
+   #check:checked ul{
+    left:0px;
+   }
+ .container{
+    width: 100%;
+    align-items: center;
+    margin: 0;
+ }
+ .container .lekha{
+    padding: 5px;
+ }
+ .container input{
+    margin-bottom: 10px;
+ }
+   header{
+    padding: 0;
+   }
+   .popular{
+    padding: 0 10px;
+    display: grid;
+    width: 100%;
+    
+   }
+   .tour-1{
+    padding: 15px 0px;
+    width: 350px;
+   }
+   .popular img{
+    width: 350px;
+    height: auto;
+    padding-right:20px;
+   }
+   .destination{
+    padding: 0 15px;
+    
+   }
+   .frow,.srow,.trow {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+
+ 
+   }
+   .extra{
+    padding:0px ;
+  
+    display: grid;
+   }
+ .air, .rail{
+    width: 85%;
+    border-radius: 25px;
+ }
+ .air img{
+    width: 250px;
+ }
+ .rail img{
+    width: 250px;
+ }
+ .fas img{
+    width: 100%;
+    padding-bottom:10px ;
+ }
+ .choose{
+    padding: 2px;  
+ }
+ .service{
+    display: block;
+    gap: 10px;
+    margin-bottom: 2px;
+ 
+ }
+ .hotel-3,.hotel,.hotel-2{
+    padding: 10px;
+    margin: 15px 5px; border-radius: 25px;   
+ }
+ .contain{
+    padding: 0;
+ }
+ .satorini{
+    width: 200px;
+    height: auto;
+    justify-content: center;
+   align-items: center;
+  /* float: none; */
+ }
+ .chata ,.chata-1{
+  margin: 10px 0px;
+    width: 90%;
+    height: 500px;
+    padding-right: 30px;
+    
+ }
+.vid{
+    width: 350px;
+    height: 400px;
+    padding: 0;
+}
+.popular form{
+    margin: 0;
+    width: 85%;
+    padding-bottom: 15px;
+}
+.popular form input{
+    padding: 10px;
+}
+#save img{
+    width: 97%;
+    padding-top: 25px;
+
+}
+.centi{
+   
+    position: absolute;
+    font-size: 15px;
+    width: 200px;
+    left: 245px;
+    bottom: 10px;
+    height: 80px;
+    transform: translate(-50%, -50%) rotate(-26deg);
+
+
+
+}
+footer{
+    padding: 15px 20px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+}
