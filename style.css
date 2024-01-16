@@ -229,6 +229,7 @@ width: 90%;
     background-color: orangered;
     color: white;
     font-weight: 900;
+    cursor: pointer;
 }
 #side{
      justify-content: space-between;
@@ -285,13 +286,7 @@ footer{
     display: none;
 
 }
-#check{
-    
-    position: relative;
-   right: -20px;
-   bottom: -25px;
-    display: none;
-}
+
 @media screen and (max-width:600px){
     label.logo{
         font-size: 30px;
